@@ -10,7 +10,7 @@ interface Request {
 
 const api = createApi({
   baseQuery: fetchBaseQuery({
-    baseUrl: 'http://127.0.0.1:8000/api'
+    baseUrl: 'https://nico-bot-detector-de-fake-news-news.vercel.app/api'
   }),
   endpoints: (builder) => ({
     postTitle: builder.mutation<Response, Request>({
